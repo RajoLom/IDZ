@@ -1,0 +1,20 @@
+.headtext{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 20px;
+    margin: 0;
+    color: var(--asMain);
+    background-color: transparent;
+}
+.headtext:hover{
+    color: var(--constBlack);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: var(--ac1);
+  transition: 0.3s;
+}
